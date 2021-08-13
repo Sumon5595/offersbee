@@ -1,0 +1,340 @@
+@charset "utf-8";
+table td, table th {
+	text-align: right;
+}
+#header .logo {
+	float: right !important;
+}
+#header nav {
+	margin-right: auto;
+	margin-left: 0;
+}
+#header nav .menu {
+	float: right;
+}
+#header nav .menu .sub-menu li a {
+	text-align: right;
+}
+#header nav .menu > li.menu-item-has-children > a::after {
+	left: 8px;
+	right: initial;
+}
+#header nav .menu li.menu-item-has-children a {
+	padding-left: 25px;
+	padding-right: 15px;
+}
+#header nav ul .sub-menu .sub-menu {
+	padding-left: 0;
+	padding-right: 15px;
+}
+#button_light_dark {
+	float: left;
+    margin-left: 0;
+    margin-right: 5px;
+}
+#menu-mobile {
+    transform: translate3d(-100%, 0, 0);
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -o-transform: translate3d(-100%, 0, 0);
+    left: 0;
+    right: auto;
+}
+#menu-mobile ul li.menu-item-has-children i {
+	right: auto;
+	left: 0;
+}
+#menu-mobile ul li.menu-item-has-children > a {
+	padding-left: 60px;
+	padding-right: 15px;
+}
+.toggle-nav .wrapper-inside > * {
+	overflow: hidden;
+	transform: translate3d(80%, 0, 0);
+	-moz-transform: translate3d(80%, 0, 0);
+	-ms-transform: translate3d(80%, 0, 0);
+	-o-transform: translate3d(80%, 0, 0);
+	-webkit-transform: translate3d(80%, 0, 0);
+}
+#subheader #searchBox form input[type=text] {
+    padding: 0 20px 0px 120px;
+    margin-left: -70px;
+    margin-right:  0;
+    float: right;
+}
+#subheader #searchBox form button {
+	float: left;
+	border-radius: 2px 0px 0px 2px;
+}
+.box-rating .rating,
+.rating .stars {
+	background-position: right;
+}
+.box-rating .ratings-click .rating-click {
+	float: right;
+}
+.section .bloque-app {
+    width: 16.66598%;
+}
+.w75.bloque-imagen {
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+}
+.section .bloque-app-second .box-rating {
+	float: left;
+}
+.section .bloque-app-second .bloque-imagen {
+	margin-right: 0;
+	margin-left: 10px;
+	float: right;
+}
+.section .bloque-app, 
+.section.blog {
+	float: right;
+}
+.section.blog .bloques li .scim {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+.section.blog .bloques li .excerpt .readmore a {
+	float: left;
+}
+.section .bloque-blog .bb-image {
+	margin-left: 15px;
+	margin-right: 0;
+}
+#subheader #searchBox ul {
+	text-align: initial;
+}
+#subheader #searchBox form.wait::after {
+	right: initial;
+	left: 75px;
+}
+#subheader.np .social {
+	margin-left: 0;
+	margin-right: 20px;
+}
+#subheader .social li {
+	margin-left: 0;
+	margin-right: 6px;
+}
+.aplication-single .s1 {
+	margin-right: 0;
+	margin-left: 20px;
+}
+.aplication-single .s2 {
+	padding-left: 0;
+	margin-left: 0;
+	padding-right: 170px;
+	margin-right: -170px;
+}
+.aplication-single .box-versions .s2 {
+	padding-left: 0;
+	margin-left: 0;
+    padding-right: 140px;
+    margin-right: -140px;
+}
+.aplication-single .s2 .meta-cats a {
+    margin-right: 0;
+	margin-left: 5px;
+}
+.aplication-single .box h2.box-title::after, .aplication-single .box h3.box-title::after, .aplication-page .box h1.box-title::after, .box #reply-title::after, .box .comments-title::after {
+	left: initial;
+	right: 25px;
+}
+.left, #breadcrumbs li {
+	float: right;
+}
+.right {
+	float: left;
+}
+.aplication-single h1 {
+	margin-right: 0;
+	margin-left: 7px;
+}
+.aplication-single .downloadAPK {
+	padding-right: 40px;
+	padding-left: 5px;
+}
+.aplication-single .downloadAPK i {
+	left: initial;
+	right: 0;
+}
+.botones_sociales a {
+	text-align: initial;
+	padding-right:  5px;
+	padding-left:  17px;
+}
+.botones_sociales li:nth-last-child(2) {
+    margin-left: 0;
+    border-left: 0;
+}
+#comments ol.comment-list .comment .comment-body {
+	padding-left: 0;
+	padding-right: 70px;
+}
+#comments ol.comment-list .comment .comment-body .comment-meta {
+	float: left;
+}
+#comments ol.comment-list .comment .comment-body .comment-author img {
+	left: initial;
+	right: 0;
+}
+.aplication-single, .aplication-page, .page-woocommerce {
+	float: right;
+}
+.aplication-single .data-app {
+	padding-right: 0;
+	padding-left: 10px;
+}
+.aplication-single .etiquetas a {
+	margin-right: 0;
+	margin-left: 8px;
+}
+#sidebar {
+	float: left;
+}
+.widget ul > li > a::before {
+	left: initial;
+	right: 0;
+}
+#footer .footer-bottom .logo {
+	margin-right: auto;
+	margin-left: inherit;
+}
+#footer .footer-bottom .copy ul li:not(:nth-child(1))::before {
+	margin-left: 5px;
+	margin-right: 3px;
+}
+.px-carousel-item {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.px-carousel-item:nth-last-child(1) {
+	margin-left: 0;
+}
+.px-carousel-nav .px-next {
+	left: 10px;
+    right: initial;
+}
+.px-carousel-nav .px-prev {
+	left: initial;
+    right: 10px;
+}
+#slideimages .px-prev {
+	left: initial;
+	right: -25px;
+}
+#slideimages .px-next {
+	left: -25px;
+	right: initial;
+}
+.px-carousel-nav .px-next,
+.px-carousel-nav .px-prev,
+#slideimages .px-prev,
+#slideimages .px-next {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+}
+#slideimages .px-carousel-item {
+	margin-left: 5px;
+	margin-right: 0;
+}
+#slideimages .px-carousel-item:nth-last-child(1) {
+	margin-left: 0;
+}
+#box-report label {
+	padding-left: 0;
+	padding-right: 20px;
+}
+#box-report label input {
+	right: 0;
+	left: initial;
+}
+.aplication-single .downloadAPK.dapk_b {
+    padding-right: 47px;
+    padding-left: 15px;
+}
+.aplication-single .bx-download ul li {
+	float: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+.aplication-single .bx-download ul li a {
+	padding: 5px 38px 5px 23px;
+}
+.aplication-single .bx-download ul li a i {
+	right: 0;
+	left: initial;
+	margin-left: 5px;
+	margin-right: 0;
+}
+.bloque-status {
+	right: -31px;
+	left: inherit;
+	transform: rotate(45deg);
+	transform-origin: left bottom;
+	font-size: 12px;
+	line-height: 12px;
+}
+.w75 .bloque-status {
+	right: -26px;
+    left: initial;
+}
+.widget.widget_categories a::before {
+	margin-right: 0;
+	margin-left: 7px;
+}
+@media (max-width: 900px) {
+	#slideimages .px-next {
+		left: -10px;
+	}
+	#slideimages .px-prev {
+		right: -10px;
+	}
+	#header nav .menu-open { 
+		float: left;
+	}
+}
+@media (max-width: 768px) {
+	#header .logo {
+		padding-left: 0;
+		padding-right: 10px;
+	}
+}
+@media (max-width: 650px) {
+	#subheader #searchBox form.wait::after {
+		left: 40px;
+	}
+	#subheader #searchBox form input[type=text] {
+		padding-left: 75px;
+		padding-right: 10px;
+	}
+}
+@media (max-width: 500px) {
+	.section.blog .bloques .bca {
+		padding-left: 0;
+		padding-right: 90px;
+	}
+	.aplication-single .s1 {
+		margin-left: 0;
+		padding-right: 0;
+		padding-left: 10px;
+	}
+	.aplication-single .s2 {
+		width: 50%;
+		margin: 0;
+		padding: 0;
+	}
+	.aplication-single .data-app {
+		padding-left: 0;
+	}
+	#comments ol.comment-list .comment .comment-body .comment-meta {
+		float: none;
+	}
+}
