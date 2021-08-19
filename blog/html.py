@@ -1,5 +1,6 @@
 address = input()
-
+adrs = """https://offersbee.org/blog/"""
+ht = ".html"
 filename = "".join(str(address)+".html")
 
 data = """<head><meta http-equiv="refresh" content="1;url=https://bdjob24.org/?blog="""
@@ -9,5 +10,8 @@ final = data+data1+data2
 
 f= open(filename,"a")
 f.write(f'{final}\n')
-print(filename)
+
+print(adrs+address+str(ht))
+
+#print(filename)
 
